@@ -1,3 +1,51 @@
+<h2 id="user-content-安装或卸载">
+<a id="user-content-安装或卸载" class="anchor" href="#%E5%AE%89%E8%A3%85%E6%88%96%E5%8D%B8%E8%BD%BD" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>安装或卸载</h2>
+<blockquote>
+<p>温馨提醒，此脚本默认屏蔽一些不友好的网站！(仅限轮子相关)</p>
+</blockquote>
+<p>要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br>
+推荐使用 Debian 9 系统，脚本会自动启用 BBR 优化。<br>
+备注：不推荐使用 Debian 8 系统，因为 Caddy 申请证书可能会出现一些莫名其妙的问题<br>
+<strong>强烈推荐使用 <a href="https://affpass.com/go/bwg" rel="nofollow">搬瓦工VPS</a>，稳定，快速，针对中国线路专门优化，完全无须担心跑路，服务好，30天退款保证。<br>
+在这里可以找到 <a href="https://233vps.com/post/bandwagonhost-plans/" rel="nofollow">
+     搬瓦工 VPS 套餐大全  
+</a>
+ ，优惠码在这里： <a href="https://233vps.com/post/bandwagonhost-coupon-code/" rel="nofollow">
+     搬瓦工 VPS 优惠码  
+</a>
+</strong><br>
+使用 root 用户输入下面命令安装或卸载</p>
+<pre><code>bash &lt;(curl -s -L https://git.io/v2ray.sh)
+</code></pre>
+<div>
+</div>
+<blockquote>
+<p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>
+ubuntu/debian 系统安装 Curl 方法: <code>apt-get update -y &amp;&amp; apt-get install curl -y</code><br>
+centos 系统安装 Curl 方法: <code>yum update -y &amp;&amp; yum install curl -y</code><br>
+安装好 curl 之后就能安装脚本了</p>
+</blockquote>
+<p>备注：安装完成后，输入 <code>v2ray</code> 即可管理 V2Ray<br>
+如果提示你的系统不支持此脚本，那么请尝试更换系统</p>
+<p>下面是此脚本的一些截图</p>
+<p>安装选项</p>
+<img src="https://camo.githubusercontent.com/734eac925355bc405fcc603dc6d44956153061b6/68747470733a2f2f692e6c6f6c692e6e65742f323031392f30312f30352f356333303532323463666530352e6a7067" alt="安装 V2Ray" data-canonical-src="https://i.loli.net/2019/01/05/5c305224cfe05.jpg">
+<p>配置 Shadowsocks</p>
+<img src="https://camo.githubusercontent.com/eec1b155bc310b7aaa33ae727a011a2a8625bf00/68747470733a2f2f692e6c6f6c692e6e65742f323031392f30312f30352f356333303532323461643131632e6a7067" alt="配置 Shadowsocks" data-canonical-src="https://i.loli.net/2019/01/05/5c305224ad11c.jpg">
+<p>安装完成</p>
+<img src="https://camo.githubusercontent.com/85637928f4e109419ff40c8c219adf6684424a4b/68747470733a2f2f692e6c6f6c692e6e65742f323031392f30312f30352f356333303532323462626437352e6a7067" alt="V2Ray 安装完成" data-canonical-src="https://i.loli.net/2019/01/05/5c305224bbd75.jpg">
+<p>管理面板</p>
+<img src="https://camo.githubusercontent.com/f440719cf368dc6b6586a93afc90a4c45bede3dc/68747470733a2f2f692e6c6f6c692e6e65742f323031392f30312f30352f356333303532323463363036652e6a7067" alt="V2Ray 管理面板" data-canonical-src="https://i.loli.net/2019/01/05/5c305224c606e.jpg">
+<div>
+</div>
+<h2 id="user-content-telegram-专用代理">
+<a id="user-content-telegram-专用代理" class="anchor" href="#telegram-%E4%B8%93%E7%94%A8%E4%BB%A3%E7%90%86" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Telegram 专用代理</h2>
+<p>如果你在使用 Telegram 的话，你可以配置一个 Telegram 的专用代理，这样来，在某些情况下你就不需要再开一个代理软件了。<br>
+输入 <code>v2ray tg</code> 即可配置 TG 专用代理<br>
+配置 Telegram MTProto</p>
+
+
+
 Removed
 V2Ray一键安装脚本
 233boy edited this page 8 days ago · 3 revisions
