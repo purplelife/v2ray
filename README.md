@@ -13,6 +13,23 @@
  ，优惠码在这里： <a href="https://233vps.com/post/bandwagonhost-coupon-code/" rel="nofollow">
      搬瓦工 VPS 优惠码  
 </a>
+     <h2 id="user-content-备份">
+<a id="user-content-备份" class="anchor" href="#%E5%A4%87%E4%BB%BD" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>备份</h2>
+<p>为了避免由于不可抗拒的原因所造成本人主动删除脚本，所以建议请将本脚本 Fork 一份<br>
+备份地址：<a href="https://github.com/233boy/v2ray/fork">
+     https://github.com/233boy/v2ray/fork 
+</a>
+<br>
+安装方法，确保你已经 Fork 了脚本，将 233boy 修改成你的 Github 用户名</p>
+<pre><code>git clone https://github.com/purplelife/v2ray
+cd v2ray
+chmod +x install.sh
+./install.sh local
+</code></pre>
+<div>
+</div>
+<p>如果提示 git 命令不可用，那就自己安装咯，不会安装啊？我也不知道啊。哈哈</p>
+<h2 id="user-content-及时更新脚本">
 </strong><br>
 使用 root 用户输入下面命令安装或卸载</p>
 <pre><code>bash &lt;(curl -s -L https://git.io/v2ray.sh)
