@@ -6,13 +6,7 @@
 <p>要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br>
 推荐使用 Debian 9 系统，脚本会自动启用 BBR 优化。<br>
 备注：不推荐使用 Debian 8 系统，因为 Caddy 申请证书可能会出现一些莫名其妙的问题<br>
-<strong>强烈推荐使用 <a href="https://affpass.com/go/bwg" rel="nofollow">搬瓦工VPS</a>，稳定，快速，针对中国线路专门优化，完全无须担心跑路，服务好，30天退款保证。<br>
-在这里可以找到 <a href="https://233vps.com/post/bandwagonhost-plans/" rel="nofollow">
-     搬瓦工 VPS 套餐大全  
-</a>
- ，优惠码在这里： <a href="https://233vps.com/post/bandwagonhost-coupon-code/" rel="nofollow">
-     搬瓦工 VPS 优惠码  
-</a>
+
      <h2 id="user-content-备份">
 <a id="user-content-备份" class="anchor" href="#%E5%A4%87%E4%BB%BD" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>备份</h2>
 <p>为了避免由于不可抗拒的原因所造成本人主动删除脚本，所以建议请将本脚本 Fork 一份<br>
